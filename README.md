@@ -1,3 +1,5 @@
+[![Docker Repository on Quay.io](https://quay.io/repository/jspc/rspec/status "Docker Repository on Quay.io")](https://quay.io/repository/jspc/rspec)
+
 rspec container
 ==
 
