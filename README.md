@@ -8,7 +8,16 @@ Builds and tests ruby 2.2.2 app in a debian based container (not that it should 
 Usage
 --
 
-`docker run -v $PWD:/app quay.io/jspc/rspec`
+`docker run -p 7894:80 -v $PWD:/app quay.io/jspc/rspec`
+
+Port may, of course, be anything. Its merely my examples which use 7894.
+
+Simple cov
+--
+
+Presuming [`simplecov`](https://github.com/colszowka/simplecov) is included and started.
+
+You can view the results at `http://localhost:7894`
 
 Licence
 --
